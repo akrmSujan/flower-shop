@@ -174,7 +174,7 @@ margin-top: 128px;
   .display-flex{
         flex-direction: column;
     }
-    .support , .deal-section , .hot-deal , .instagram ,  .Input-box    {
+    .support , .deal-section , .hot-deal , .instagram ,  .Input-box , .cards   {
         height: auto;
         width: auto;
     }
@@ -187,7 +187,7 @@ margin-top: 128px;
     .display-flex{
         flex-direction: column;
     } 
-    .support , .deal-section , .hot-deal , .instagram  ,  .Input-box    {
+    .support , .deal-section , .hot-deal , .instagram  ,  .Input-box , .cards   {
         height: auto;
         width: auto;
     }
