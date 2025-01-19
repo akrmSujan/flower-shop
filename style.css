@@ -1,0 +1,200 @@
+.lato-regular {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /* shared style */
+  .display-flex{
+    display: flex;
+  }
+  .description{
+    color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+  }
+  .all-button{
+    border-radius: 8px;
+background: rgb(229, 84, 115);
+width: 177px;
+height: 64px;
+color: rgb(255, 255, 255);
+font-family: Lato;
+font-size: 20px;
+font-weight: 700;
+border: none;
+  }
+  /* banner section */
+  .title{
+    color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 80px;
+font-weight: 800;
+  }
+  .banner{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(229, 84, 115, 0.1);
+  }
+  .margin-top{
+    margin-top: -60px;
+  }
+  .banner-kotha{
+    margin-top: -30px;
+  }
+  /* Feature-section */
+  .feature-title{
+    color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+  }
+  .feature-kotha{
+    text-align: center;
+    margin-top: 100px;
+  }
+  /* card-section */
+  .image{
+    width: 400px;
+height: 538px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+  .img{
+    margin-top: 110px;
+  }
+  .img-2{
+    margin-top: 67px;
+  }
+.title-flower-card{
+    width: 181px;
+    text-align: center; 
+    border-bottom: 2px solid black;
+    color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 24px;
+font-weight: 700;
+}
+.text-align{
+    margin-left: 130px;
+}
+.cards{
+   margin: 0 auto;
+   width: 1248px;
+    gap: 24px;
+}
+/* support-section */
+.support{
+    width: 81%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 128px;
+    border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+height: 320px;
+}
+/* Deal-section */
+.hot-deal{
+    width: 594px;
+height: 228px;
+text-align: center;
+}
+.deal-section{
+    width: 100%;
+background: rgba(229, 84, 115, 0.05);
+justify-content: center;
+align-items: center;
+height: 620px;
+gap: 168px ;
+margin-top:128px ;
+}
+/* Insta-section */
+.instagram{
+    text-align: center;
+    width: 594px;
+height: 132px;
+margin: 0 auto;
+}
+/* Image-section */
+.Images{
+    gap: 24px;
+    width: 1440px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+/* input-section */
+.Email{
+    border-radius: 8px;
+background: rgb(255, 255, 255);
+width: 700px;
+height: 64px;
+padding-left: 22px;
+border: none;
+}
+.Input-box{
+    width: 1440px;
+height: 449px;
+text-align: center;
+background-image: url('Flower Asset/Rectangle 9.png');
+margin: 0 auto;
+border: 2px dashed lightgray;
+margin-top: 128px;
+}
+.hudai{
+    padding-top: 80px;
+}
+.input{
+    justify-content: center;
+}
+/* footer-section */
+.footer{
+    text-align: center;
+    background: rgb(17, 16, 16);
+    width: 100%;
+    height: 449px;
+    margin: 0 auto;
+}
+.margin{
+    padding-top: 120px;
+    margin-top: 128px;
+}
+.footer-kotha{
+    color: rgba(255, 255, 255, 0.9);
+}
+/* End-of design */
+/* Responsive-Layout */
+@media screen and (min-width:500px) and (max-width:1000px) {
+  .display-flex{
+        flex-direction: column;
+    }
+    .support , .deal-section , .hot-deal , .instagram ,  .Input-box    {
+        height: auto;
+        width: auto;
+    }
+    .Images{
+        width: 342px;
+    }
+    
+}
+@media screen and (max-width:499px) {
+    .display-flex{
+        flex-direction: column;
+    } 
+    .support , .deal-section , .hot-deal , .instagram  ,  .Input-box    {
+        height: auto;
+        width: auto;
+    }
+    .Email{
+        width: 100%;
+    }
+    .Images{
+        width: 342px;
+    }
+}
